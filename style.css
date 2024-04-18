@@ -236,6 +236,7 @@ section.experience{
     background-color: var(--cor-de-fundo);
     border: 2px solid var(--cor-secundaria);
     padding: 10px;
+    border-radius: 5px;
 }
 
 .experiencia__botao--repo:hover{
@@ -248,6 +249,7 @@ section.experience{
     color: var(--cor-de-fundo);
     border: 2px solid var(--cor-secundaria);
     padding: 10px;
+    border-radius: 5px;
 }
 
 .experiencia__botao--demo:hover{
@@ -287,6 +289,7 @@ section.formcontato{
     border: 2px solid transparent;
     border-bottom: 2px solid var(--cor-primaria);
     padding: 3px 20px 20px 3px;
+    border-radius: 5px;
 }
 
 .formcontato__input:focus{
@@ -306,6 +309,7 @@ section.formcontato{
     border: 2px solid transparent;
     border-bottom: 2px solid var(--cor-primaria);
     padding: 3px 20px 20px 3px;
+    border-radius: 5px;
 }
 
 .formcontato__textarea::placeholder{
@@ -323,6 +327,7 @@ section.formcontato{
     padding: 10px;
     color: var(--cor-de-fundo);
     width: 140px;
+    border-radius: 5px;
 }
 
 .formcontato__botao:hover{
