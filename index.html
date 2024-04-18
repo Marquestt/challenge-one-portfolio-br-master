@@ -167,6 +167,14 @@
                     <li class="academic__courses__item__subtitle"><p>2025 - FATEC Rubens Lara</p></li>
                 </ul>
             </div>
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Insira a logo de seu local de formação -->
+                    <li class="academic__courses__item__img"><img src="assets/one.png"></li>
+                    <li class="academic__courses__item__title"><h4>Formação Front-end</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2024 - ONE</p></li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -241,11 +249,16 @@
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário abaixo e entrarei em contato o mais rápido possível. </h3>
                     <form class="formcontato__form">
-                        <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                        <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                        <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
-                        <button class="formcontato__botao">Enviar mensagem</button>
+                        <span class="formcontato__erro"></span>
+                        <label for="nome">Nome:</label>
+                        <input class="formcontato__input" type="text" id="nome" placeholder="Fulano de Tal">
+                        <label for="email">E-mail:</label>
+                        <input class="formcontato__input" type="email" id="email" placeholder="exemplo@exemplo.com">
+                        <label for="assunto">Assunto:</label>
+                        <input class="formcontato__input" type="text" id="assunto" placeholder="Sobe o que deseja falar?">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Descreva o que deseja ou digite sua mensagem aqui!"></textarea>
+                        <button class="formcontato__botao">Enviar mensagem:</button>
                     </form>
                 </div>
             </div>
@@ -254,8 +267,7 @@
         <!-- Sessão de Footer/Rodapé-->
         <section class="footer">
             <div class="footer__rodape">
-                <p>Desenvolvido por Thatyane Marques</p>
-                <p>2024</p>
+                <p>©️ Desenvolvido por Thatyane Marques</p>
             </div>
         </section>
     </div>

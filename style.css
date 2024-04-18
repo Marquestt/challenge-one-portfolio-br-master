@@ -288,11 +288,11 @@ section.formcontato{
 .formcontato__input{
     border: 2px solid transparent;
     border-bottom: 2px solid var(--cor-primaria);
-    padding: 3px 20px 20px 3px;
+    padding: 10px 10px ;
     border-radius: 5px;
 }
 
-.formcontato__input:focus{
+.formcontato__input:hover{
     border: 2px solid transparent;
     border-bottom: 2px solid var(--cor-secundaria);
 }
@@ -303,6 +303,11 @@ section.formcontato{
 
 .formcontato__input:focus::placeholder{
     color: var(--cor-secundaria);
+}
+
+.formcontato__erro{
+    display: none;
+    color: var(--cor-de-fundo);
 }
 
 .formcontato__textarea{
