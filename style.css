@@ -402,7 +402,7 @@ section.menu{
 
 /*Experiências acadêmicas*/
 
-.academic__courses__box{
+.academic__courses{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
