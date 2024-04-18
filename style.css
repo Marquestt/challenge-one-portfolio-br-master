@@ -402,6 +402,12 @@ section.menu{
 
 /*Experiências acadêmicas*/
 
+.academic__courses__box{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 /*Expeirência profissional*/
 
 .experiencie__box{
